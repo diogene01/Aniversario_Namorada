@@ -3,14 +3,10 @@ body {
     margin: 0;
     overflow: hidden;
     background-repeat: no-repeat;
-    font-family: cursive;
     position: relative;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
-    overflow: auto;
   }
 
 #canvas {
@@ -20,11 +16,6 @@ body {
 }
 
 
-h1{
-    text-align: center;
-    color: rgb(160, 3, 3);
-}
-
 .div_clicavel{
     width: 200px;
     height: 200px;
@@ -32,19 +23,3 @@ h1{
     border-radius: 100%;
 }
 
-.box{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-img{
-    height: 250px;
-    margin: 10px;
-    border: 10px solid rgb(160, 3, 3);
-    border-radius: 10px;
-}
-
-p{
-    margin: 10px;
-}
